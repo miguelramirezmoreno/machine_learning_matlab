@@ -4,17 +4,16 @@
 
 ## Cost Function for multiple variables
 
-``
+```
 function J = cost_lrm(X, y, theta)
 
 m = length(y);
 J = 0;
-``
-
+```
 
 ## Gradient descent multiple variables
 
-``
+```
 function [theta, J_history] = gradientdescentlrm(X, y, theta, alpha, num_iters)
 
 m = length(y);
@@ -28,4 +27,4 @@ for iter = 1:num_iters
 
 end
 
-``
+```
